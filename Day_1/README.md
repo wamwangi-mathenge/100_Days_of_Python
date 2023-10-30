@@ -9,4 +9,4 @@
 - Variables
 
 ## Day 1: Project
-Create a Band Name Generator Program
+[Band name Generator Program](https://github.com/wamwangi-mathenge/100_Days_of_Python/tree/main/Day_1/Band_Name_Generator)
