@@ -18,8 +18,6 @@ What is the name of your pet?
 [user input: PetName]
 
 The name of your band is City PetName
+```
 
 5. To ensure a clear user experience, the input cursor appears on a new line after each question.
-
-Enjoy creating your band name with this simple Python program!
-```
