@@ -1,4 +1,3 @@
-num1 = int(input())
-num2 = int(input())
+name = input()
 
-print(num1 * num2)
+print(len(name))
