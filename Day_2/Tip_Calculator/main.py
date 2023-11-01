@@ -14,5 +14,6 @@ number_of_people = input("How many people to split the bill?\n")
 
 cost_per_person = float(total_bill) * (1 + (float(tip_percentage) / 100)) / int(number_of_people)
 rounded_cost = round(cost_per_person, 2)
+rounded_cost = "{:.2f}".format(cost_per_person)
 
 print(f"Each person should pay: ${rounded_cost}")
