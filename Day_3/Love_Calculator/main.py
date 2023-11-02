@@ -23,4 +23,12 @@ second_count+=couple_name.count("e")
 
 str_couple_count = str(first_count) + str(second_count)
 couple_count = int(str_couple_count)
+print(type(couple_count))
 # print(f"Your score is {couple_count}")
+
+if couple_count < 10 or couple_count > 90:
+    print(f"Your score is {couple_count}, you go together like coke and mentos.")
+elif couple_count > 40 and couple_count < 50:
+    print(f"Your score is {couple_count}, you are alright together.")
+else:
+    print(f"Your score is {couple_count}.")
