@@ -8,7 +8,10 @@ if height >= 120:
     print("You can ride the rollercoaster")
     age = int(input("How old are you? "))
     
-    if age > 18:
+    if age >= 45 and age <= 55:
+        bill = 0
+        print("You're having a midlife crisis. This one is on us!")
+    elif age > 18:
         bill = 12
         print("Adult Prices are $12")
     elif age >= 12:
