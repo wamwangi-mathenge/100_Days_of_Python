@@ -6,4 +6,13 @@ import my_module
 
 # print(random_integer)
 
-print(my_module.pi)
+# print(my_module.pi)
+
+# Generating a random float
+random_float = random.random()
+print(random_float) # Generates a random float between 0 and 1
+
+
+# Generate a random float between 0 and 5
+random_float_05 = random.random() * 5
+print(random_float_05)
