@@ -16,5 +16,8 @@ print(states_of_america[0]) # State that joined the union first
 print(states_of_america[20])
 print(states_of_america[48])
 
-states_of_america.append("Mexico")
-print(states_of_america)
+# states_of_america.append("Mexico")
+# print(states_of_america)
+
+print(len(states_of_america))
+# print(states_of_america[50]) # Out of range
