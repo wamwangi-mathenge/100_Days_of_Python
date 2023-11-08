@@ -43,6 +43,17 @@ for y in pass_symbols:
 print(password_symbols)
 
 
+# Generate random numbers
+pass_numbers = random.sample(numbers, nr_numbers)
+print(pass_numbers)
+
+password_numbers = " "
+for z in pass_numbers:
+    password_numbers+=z
+    
+print(password_numbers)
+
+
 
 
 
