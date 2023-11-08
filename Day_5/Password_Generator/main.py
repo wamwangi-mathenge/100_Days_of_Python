@@ -32,6 +32,17 @@ for x in pass_letters:
 print(password_letters)
 
 
+# Generate random symbols
+pass_symbols = random.sample(symbols, nr_symbols)
+print(pass_symbols)
+
+password_symbols = " "
+for y in pass_symbols:
+    password_symbols+=y
+
+print(password_symbols)
+
+
 
 
 
