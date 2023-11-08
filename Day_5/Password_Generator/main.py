@@ -23,37 +23,38 @@ len_letters = len(letters)
 
 # Generate random letters
 pass_letters = random.sample(letters, nr_letters)
-print(pass_letters)
+# print(pass_letters)
 
-password_letters = " "
+password_letters = ""
 for x in pass_letters:
     password_letters+=x
     
-print(password_letters)
+# print(password_letters)
 
 
 # Generate random symbols
 pass_symbols = random.sample(symbols, nr_symbols)
-print(pass_symbols)
+# print(pass_symbols)
 
-password_symbols = " "
+password_symbols = ""
 for y in pass_symbols:
     password_symbols+=y
 
-print(password_symbols)
+# print(password_symbols)
 
 
 # Generate random numbers
 pass_numbers = random.sample(numbers, nr_numbers)
-print(pass_numbers)
+# print(pass_numbers)
 
-password_numbers = " "
+password_numbers = ""
 for z in pass_numbers:
     password_numbers+=z
     
-print(password_numbers)
+# print(password_numbers)
 
-
+final_password = password_letters + password_symbols + password_numbers
+print(final_password)
 
 
 
