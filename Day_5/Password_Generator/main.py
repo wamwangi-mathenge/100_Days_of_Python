@@ -57,8 +57,3 @@ gross_password = password_letters + password_symbols + password_numbers
 print(gross_password)
 net_password = ''.join(random.sample(gross_password, len(gross_password)))
 print(net_password)
-
-
-
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
