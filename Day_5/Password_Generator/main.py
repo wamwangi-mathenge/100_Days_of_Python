@@ -16,9 +16,25 @@ len_letters = len(letters)
 # random_letter = random.randint(0, len_letters - 1)
 # print(letters[random_letter])
 
-random_index = random.randrange(0, len_letters - 1)
-pass_letter = letters[random_index]
-print(pass_letter)
+# Generate a random letter
+# random_index = random.randrange(0, len_letters - 1)
+# pass_letter = letters[random_index]
+# print(pass_letter)
+
+# Generate random letters
+pass_letters = random.sample(letters, nr_letters)
+print(pass_letters)
+
+password_letters = " "
+for x in pass_letters:
+    password_letters+=x
+    
+print(password_letters)
+
+
+
+
+
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
