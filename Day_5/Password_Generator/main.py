@@ -29,7 +29,7 @@ password_letters = ""
 for x in pass_letters:
     password_letters+=x
     
-# print(password_letters)
+print(password_letters)
 
 
 # Generate random symbols
@@ -40,7 +40,7 @@ password_symbols = ""
 for y in pass_symbols:
     password_symbols+=y
 
-# print(password_symbols)
+print(password_symbols)
 
 
 # Generate random numbers
@@ -51,11 +51,12 @@ password_numbers = ""
 for z in pass_numbers:
     password_numbers+=z
     
-# print(password_numbers)
+print(password_numbers)
 
-final_password = password_letters + password_symbols + password_numbers
-print(final_password)
-
+gross_password = password_letters + password_symbols + password_numbers
+print(gross_password)
+net_password = ''.join(random.sample(gross_password, len(gross_password)))
+print(net_password)
 
 
 
