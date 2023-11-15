@@ -27,20 +27,4 @@ while ("_" in display) == True:
 
     print(display)
     
-    
-    
-    
-    
-    
-    
-
-# guess = input("Guess a letter: ").lower()
-
-# #Check guessed letter
-# for position in range(word_length):
-#     letter = chosen_word[position]
-#     print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
-#     if letter == guess:
-#         display[position] = letter
-
-# print(display)
+print("You win!!")
