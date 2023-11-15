@@ -1,7 +1,8 @@
 # Day 7: Hangman
 
 ## Topics Covered
-- How to break a complex project down into a flowchart
+- How to break a complex project down into a flowchart\
+![Hangman Flowchart Diagram](./Hangman/Hangman_Flowchart.drawio.png)
 - Review precious days' concepts
 
 
