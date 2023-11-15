@@ -4,6 +4,8 @@ import random
 
 #TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
 #Delete this line: word_list = ["ardvark", "baboon", "camel"]
+import hangman_words
+word_list = hangman_words.word_list
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
@@ -37,6 +39,7 @@ while not end_of_game:
     #Check if user is wrong.
     if guess not in chosen_word:
         #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        print(f"{guess} is not in the chosen word")
         lives -= 1
         if lives == 0:
             end_of_game = True
