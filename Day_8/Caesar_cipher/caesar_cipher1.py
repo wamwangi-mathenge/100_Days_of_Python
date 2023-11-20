@@ -23,7 +23,7 @@ def encrypt(text, shift):
         after_shift = alphabet[final_position]
         encoded += after_shift
         
-    print(encoded)
+    print(f"The encoded message is {encoded}")
         
     ##HINT: How do you get the index of an item in a list:
     #https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
