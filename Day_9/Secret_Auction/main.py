@@ -4,9 +4,10 @@ print(logo)
 print("Welcome to the Secret Auction Program")
 
 bidders = {}
-def add_bid(name, bid):
-    bidders[name] = bid
-    print(bidders)
+# max_value = 0
+# max_key = None
+ 
+        
 
 continue_bid = True
 while continue_bid:
@@ -14,7 +15,8 @@ while continue_bid:
     name = input("What is your name? ")
     bid = input("What is your bid? $")
 
-    add_bid(name, bid)
+    bidders[name] = bid
+    print(bidders)
     
     choice = input(("Are there any other bidders? Type 'yes' or 'no'. "))
     if choice == "no":
