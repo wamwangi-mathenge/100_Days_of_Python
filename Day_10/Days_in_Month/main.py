@@ -2,13 +2,17 @@ def is_leap(year):
   if year % 4 == 0:
     if year % 100 == 0:
       if year % 400 == 0:
-        print("Leap year")
+        # print("Leap year")
+        return True
       else:
-        print("Not leap year")
+        # print("Not leap year")
+        return False
     else:
-      print("Leap year")
+    #   print("Leap year")
+      return True
   else:
-    print("Not leap year")
+    # print("Not leap year")
+    return False
   
 # TODO: Add more code here 👇
 def days_in_month():
