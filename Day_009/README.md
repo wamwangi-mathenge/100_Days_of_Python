@@ -1,4 +1,4 @@
-# Day 8: Dictionaries, Nesting & Secret Auction
+# Day 9: Dictionaries, Nesting & Secret Auction
 
 ## Topics Covered
 - Dictionaries
