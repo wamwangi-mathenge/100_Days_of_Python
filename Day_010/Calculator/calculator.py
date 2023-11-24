@@ -1,6 +1,11 @@
 # Calculator
 from art import logo
-print(logo)
+import os
+
+def clear_screen():
+    # Clear the screen based on the operating system
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 # Add
 def add(n1, n2):
     return n1 + n2
@@ -30,7 +35,8 @@ operations = {
 # Use a while loop to allow the user to conduct many calculations
 
 def calculator():
-    num1 = int(input("What's the first number?: "))
+    print(logo)
+    num1 = float(input("What's the first number?: "))
 
 
     # Use a for loop to loop through "operations" and print out each of the symbols
@@ -43,7 +49,7 @@ def calculator():
     while continue_calculation:
         operation_symbol = input("Pick an operation: ")
 
-        num2 = int(input("What's the next number? "))
+        num2 = float(input("What's the next number? "))
 
         calculation_function = operations[operation_symbol]
         answer = calculation_function(num1, num2)
@@ -56,6 +62,7 @@ def calculator():
             continue_calculation = False
             # Recursion => Call the very first function and start a new calculation
             # WARNING: Make sure that there is a condition before a function can call itself to avoid an infinite loop
+            clear_screen()
             calculator()
             
             
