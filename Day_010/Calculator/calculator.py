@@ -25,3 +25,13 @@ operations = {
     "*": multiply,
     "/": divide,
 }
+
+num1 = int(input("What's the first number?: "))
+num2 = int(input("What's the second number? "))
+
+# Use a for loop to loop through "operations" and print out each of the symbols
+
+for key in operations:
+    print(key)
+    
+operation_symbol = input("Pick an operation from the line above: ")
